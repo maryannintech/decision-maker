@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    border: 2px solid black;
+    border: 2px solid #6f4e37;
     border-radius: 50px;
     background-color: #d9ae94;
 }
@@ -29,6 +29,7 @@ li {
 li:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    text-decoration-color: #6f4e37;
     cursor: pointer;
 }
 
@@ -70,4 +71,39 @@ li:hover {
     height: 250px;
     padding: 20px;
     border-radius: 30px;
+}
+
+.home-content p {
+    text-align: justify;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.about .window {
+    border-color: #d08c60;
+}
+
+.about .window-content {
+    background-color: #d08c60;
+}
+
+.about .circle {
+    background-color: #f1dca7;
+    border: 1px solid #d99a6c;
+}
+
+.about p {
+    width: 500px;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+.about h1 {
+    margin-bottom: 20px;
 }
