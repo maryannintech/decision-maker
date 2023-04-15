@@ -4,3 +4,30 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f1dca7;
+}
+
+header {
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #d9ae94;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    justify-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
