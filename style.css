@@ -24,7 +24,7 @@ body {
     background-color: #a5a58d;
     width: 100%;
     border-radius: 16px 16px 0 0;
-    padding: 5px 20px;
+    padding: 20px;
 }
 
 .window-content .circle {
@@ -41,6 +41,7 @@ body {
     border-radius: 30px;
 }
 
-.home-content p {
-    text-align: justify;
+.home-content {
+    padding: 20px;
+    width: 400px;
 }
