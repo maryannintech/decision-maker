@@ -1,52 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --bg-color-base: #f1dca7;
-    --bg-window: #fbf1ea;
-    --color-window-content: #d08c60;
-    --color-window-element: #d99a6c;
-    --h1-color: #6f4e37;
+  --bg-color-base: #f1dca7;
+  --bg-window: #fbf1ea;
+  --color-window-content: #d08c60;
+  --color-window-element: #d99a6c;
+  --h1-color: #6f4e37;
 }
 
 body {
-    background-color: var(--bg-color-base);
+  background-color: var(--bg-color-base);
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 0;
-    color: var(--h1-color);
+  text-align: center;
+  margin-bottom: 0;
+  color: var(--h1-color);
 }
 
 .window {
-    background-color: var(--bg-window);
-    border: 2px solid var(--color-window-content);
-    border-radius: 30px;
+  background-color: var(--bg-window);
+  border: 2px solid var(--color-window-content);
+  border-radius: 30px;
 }
 
 .window-elements {
-    width: 100%;
-    background-color: var(--color-window-content);
-    display: grid;
-    grid-template-columns: repeat(3, 20px);
-    padding: 20px;
-    border-radius: 27px 27px 0 0;
+  width: 100%;
+  background-color: var(--color-window-content);
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  padding: 20px;
+  border-radius: 27px 27px 0 0;
 }
 
 .circle {
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    background-color: var(--bg-color-base);
-    border: 1px solid var(--color-window-element);
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background-color: var(--bg-color-base);
+  border: 1px solid var(--color-window-element);
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
