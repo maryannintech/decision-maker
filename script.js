@@ -1,5 +1,12 @@
-let movie_lst = [];
-let movie = prompt("Enter movie choices separated by comma: ");
-movie_lst = movie.split(",");
-let movie_choices = movie_lst[Math.floor(Math.random() * movie_lst.length)];
-console.log(`Watch ${movie_choices} today!`);
+const form = document.querySelector("form");
+form.addEventListener("submit", (event) => {
+  event.preventDefault(); // prevent form from submitting
+
+  const optionsInput = document.getElementById("options");
+  const optionsChoices = optionsInput.value.split(",");
+
+  const randomChoices =
+    optionsChoices[Math.floor(Math.random() * optionsChoices.length)];
+
+  console.log(`Watch ${randomChoices} today!`);
+});

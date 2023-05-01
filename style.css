@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap');
 
 * {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Franklin', sans-serif;
   box-sizing: border-box;
 }
 
@@ -9,38 +9,61 @@ body {
   margin: 0;
 }
 
-header {
-  text-align: center;
-  background-color: #606c38;
-  color: white;
-  padding: 10px 0;
-}
-
 h1 {
   margin: 0;
 }
 
 main {
-  background-color: #fefae0;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   width: 300px;
   height: 300px;
-  border-radius: 500px;
-  border: 2px solid #606c38;
 }
 
 .intro-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
   padding: 0 50px;
   font-size: 1.25rem;
 }
 
 .intro {
   flex-wrap: wrap;
+}
+
+.choices {
+  margin-top: 20px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+input {
+  display: block;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  margin: 10px auto;
+  border: 1px solid ;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 1rem;
 }

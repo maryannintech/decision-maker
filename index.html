@@ -9,20 +9,28 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1 class="title">Decision Maker</h1>
-    </header>
     <main>
       <div class="intro-content">
-        <img src="images/intro-img.jpg" alt="Woman pondering">
+        <img src="images/intro-img.jpg" alt="Woman pondering" />
         <p class="intro">
-          Welcome to our website where you can let go of the stress of making
-          easy decisions and let us choose randomly for you! Just input the
-          choices you're having a hard time to pick.
+          Welcome to our website where you can let go of the stress of
+          <br />making easy decisions and let us choose randomly for you!
+          <br />Just input the choices you're having a hard time to pick.
         </p>
       </div>
       <div class="choices">
-        
+        <form>
+          <label for="options">Enter your choices separated by a comma:</label>
+          <input type="text" id="options" name="options" required />
+          <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+        <img
+          src="images/choices-img.jpg"
+          alt="Person Sitting on the Bed Using a Laptop"
+        />
       </div>
     </main>
     <footer></footer>
