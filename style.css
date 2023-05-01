@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,6 +19,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 40px 0;
+  flex-wrap: wrap;
 }
 
 .intro-content {
@@ -41,7 +43,7 @@ main {
 
 .intro-content img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   border-radius: 15px;
 }
 
@@ -60,11 +62,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
   flex-wrap: wrap;
-  padding: 0 50px;
+  padding: 20px;
   background-color: #edede9;
-  height: 460px;
+  height: 421px;
   width: 500px;
   border-radius: 15px;
 }
@@ -81,8 +82,16 @@ input {
   border: 1px solid black;
 }
 
+form {
+  margin: 0;
+}
+
 label {
   font-weight: 500;
+}
+
+.result {
+  font-size: 1.5rem;
 }
 
 .buttons {
@@ -98,4 +107,44 @@ button {
   font-size: 1rem;
   border: 1px solid black;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #bc6c25;
+}
+
+.choices img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.madeby {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@keyframes wordAppear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.appear-word {
+  animation: wordAppear 1s ease-in normal forwards;
 }
