@@ -160,3 +160,9 @@ a {
 .appear-word {
   animation: wordAppear 1s ease-in normal forwards;
 }
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+
