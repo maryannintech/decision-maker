@@ -97,6 +97,7 @@ label {
 
 .result {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .buttons {
@@ -162,7 +163,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .hide {
+    display: none;
+  }
 }
 
 
